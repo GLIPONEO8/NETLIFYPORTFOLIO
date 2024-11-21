@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>My Personal Blog</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#about">About</a>
+            <a href="#feedback">Feedback</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Profile Section -->
+        <section class="profile-section">
+            <!-- Updated to use GIF image -->
+            <div class="profile-image-frame">
+                <img src="Assets/giphy.gif" alt="My Profile Image" class="profile-image">
+            </div>
+            <div class="profile-info">
+                <h2>| Hi, I'm Kurt Russel</h2>
+            </div>
+        </section>
+
+    <!-- Information Section -->
+    <section id="information" class="information-section">
+        <div class="profile-picture">
+            <img src="Assets/A.jpg" alt="Profile Picture of Kurt Russel T. Gliponeo">
+        </div>
+<section id="information" class="information-section">
+    <h2>About Me</h2>
+    <p>
+        Hello, I'm Kurt Russel T. Gliponeo, a passionate and dedicated third-year student in the 
+        Bachelor of Science in Information Systems program at TUP Manila. I love working on projects 
+        that involve programming, design, and technology. My experiences include creating software 
+        solutions and contributing to team projects, always focusing on quality and continuous learning.
+    </p>
+    <div class="personal-details">
+        <p><strong>Age:</strong> 20 years old</p>
+        <p><strong>Birthday:</strong> August 8, 2004</p>
+        <p><strong>School:</strong> TUP Manila</p>
+        <p><strong>Address:</strong> 106 Manunggal St Brgy Tatalon, Quezon City</p>
+    </div>
+    <p>
+        Outside of academics, I enjoy reading, gaming, and exploring new technologies. I am always 
+        open to learning new skills and am constantly working to improve myself both personally and professionally.
+    </p>
+</section>
+
+
+        <!-- Hobbies Section -->
+<section id="hobbies" class="hobbies-section">
+    <h2>My Hobbies</h2>
+    <div class="hobbies-gallery">
+        <div class="hobby-item">
+            <img src="Assets/x1.webp" alt="Playing Basketball">
+            <div class="description-overlay">
+                <p>Playing basketball</p>
+            </div>
+        </div>
+        <div class="hobby-item">
+            <img src="Assets/x3.jpg" alt="Cooking">
+            <div class="description-overlay">
+                <p>Cooking different foods</p>
+            </div>
+        </div>
+        <div class="hobby-item">
+            <img src="Assets/x4.webp" alt="Playing Chess">
+            <div class="description-overlay">
+                <p>Playing chess</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <div class="project-container">
+        <div class="project">
+            <img src="Assets/G2.gif" alt="Project Image 1">
+            <h3>Project 1: ATM</h3>
+            <h4>Description:</h4>
+            <p>My partner for this year is Thomas Joseph Almorin. We did a project simulating an ATM machine using C++. It demonstrates object-oriented programming and applications of encryption and decryption for secure transactions.</p>
+            <h4>Technologies:</h4>
+            <p>Codeblocks, Internet, Google, Laptops, MS Teams.</p>
+            <h4>Github Link:</h4>
+            <a href="https://github.com/GLIPONEO8/Prev" target="_blank">Click here</a>
+        </div>
+
+        <div class="project">
+            <img src="Assets/G3.gif" alt="Project Image 2">
+            <h3>Project 2: 2048 Game</h3>
+            <h4>Description:</h4>
+            <p>We implemented a console-based version of the popular 2048 game using C. This project deepened our understanding of programming concepts like arrays, loops, and functions.</p>
+            <h4>Technologies:</h4>
+            <p>Codeblocks, Internet, Google.</p>
+            <h4>Github Link:</h4>
+            <a href="https://github.com/GLIPONEO8/Prev2" target="_blank">Click here</a>
+        </div>
+
+        <div class="project">
+            <img src="Assets/G4.gif" alt="Project Image 3">
+            <h3>Project 3: Student Record Management</h3>
+            <h4>Description:</h4>
+            <p>I led a team to develop a student program management system to manage student records.</p>
+            <h4>Technologies:</h4>
+            <p>Codeblocks, Computers, MS Teams.</p>
+            <h4>Github Link:</h4>
+            <a href="https://github.com/GLIPONEO8/Prev3" target="_blank">Click here</a>
+        </div>
+    </div>
+</section>
+
+<section class="skills-section">
+    <h2>Programming Skills</h2>
+    <div class="skills-grid" id="skillsGrid">
+        <!-- Skills will be dynamically inserted here by JavaScript -->
+    </div>
+</section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                <label for="contact">Contact:</label>
+                <input id="contact" name="contact" required />
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Send" />
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 [Gliponeo, Kurt Russel T.].</p>
+        <p>
+            <a href="https://web.facebook.com/kurt.russel.752/">Facebook</a> |
+            <a href="https://github.com/GLIPONEO8">GitHub</a> |
+            <a href="https://www.linkedin.com/in/gliponeo-kurt-russel-459412316/">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
